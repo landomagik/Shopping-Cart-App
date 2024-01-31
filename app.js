@@ -15,6 +15,12 @@ const shoppingList = document.querySelector("#shopping-list");
 
 addButton.addEventListener('click', inputItem)
 
+inputField.addEventListener('keydown', function (e) {
+    if (e.keyCode === 13) {
+        e.preventDefault();
+        inputItem();
+    }
+});
 
 function inputItem() {
     let inputValue = inputField.value
