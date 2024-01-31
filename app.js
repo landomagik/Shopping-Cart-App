@@ -13,12 +13,6 @@ const addButton = document.querySelector("#add-button");
 const inputField = document.querySelector("#input-field");
 const shoppingList = document.querySelector("#shopping-list");
 
-inputField.addEventListener('keydown', function (e) {
-    if (e.keyCode === 13) {
-        inputItem;
-    }
-})
-
 addButton.addEventListener('click', inputItem)
 
 
